@@ -1,0 +1,27 @@
+*{
+    margin : 0;
+   font-family: Arial;
+   border : border-box;
+   
+}
+.navbar{
+    height: 50px;
+    background-color: #0f1111;
+    color: white;
+}
+.nav_logo{
+    height: 45px;
+    width: 100px;
+}
+.logo{
+    background-image: url("amagon_logo.png");
+    height: 45px;
+    width: 100%;
+    background-size: cover;
+}
+.border{
+    border:2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}

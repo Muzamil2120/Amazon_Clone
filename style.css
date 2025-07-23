@@ -8,14 +8,16 @@
     height: 50px;
     background-color: #0f1111;
     color: white;
+    display: flex;
+
 }
 .nav_logo{
-    height: 45px;
+    height: 60px;
     width: 100px;
 }
 .logo{
     background-image: url("amagon_logo.png");
-    height: 45px;
+    height: 50px;
     width: 100%;
     background-size: cover;
 }
@@ -25,3 +27,25 @@
 .border:hover{
     border: 2px solid white;
 }
+
+/**box2**/
+.add_first{
+    color:#cccccc;
+    font-size: 0.85rem;
+    margin-left: 30px;
+}
+.add_second{
+   
+   color:#cccccc;
+    font-size: 1rem;
+  margin-left: 30px;
+}
+ 
+
+.add_icon
+{
+    display:flex; 
+align-items: center;
+ 
+}
+
